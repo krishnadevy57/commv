@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.commv.commv.app-mergeDebugResources-43:/values-ru/values-ru.xml",
+            "outputFile": "com.commv.commv.app-mergeDebugResources-47:/values-ru/values-ru.xml",
             "map": [
                 {
                     "source": "/Users/drmac/.gradle/caches/8.12/transforms/f93070b84a7bc101872908a309699c93/transformed/jetified-play-services-base-18.3.0/res/values-ru/values.xml",

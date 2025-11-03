@@ -7,6 +7,7 @@ class StorageService {
   static final StorageService instance = StorageService._internal();
 
   static const _KEY_TOKEN = 'auth_token';
+  static const _KEY_DEVICE_TOKEN = 'device_token';
   static const _KEY_LOGGED_IN = 'is_logged_in';
   static const _KEY_USER_PROFILE = 'user_profile';
 
@@ -20,13 +21,24 @@ class StorageService {
     _prefs = await SharedPreferences.getInstance();
   }
 
+
+  // Save token
+  Future<void> saveFcmDeviceToken(String deviceToken) async {
+    await _prefs.setString(_KEY_DEVICE_TOKEN, deviceToken);
+  }
+
+  // Get device token
+  String? get deviceToken => _prefs.getString(_KEY_DEVICE_TOKEN);
+
   // Save token
   Future<void> saveToken(String token) async {
     await _prefs.setString(_KEY_TOKEN, token);
   }
 
+
   // Get token
   String? get token => _prefs.getString(_KEY_TOKEN);
+
 
   // Save login state
   Future<void> setLoggedIn(bool loggedIn) async {

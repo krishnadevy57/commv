@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "330337503528",
+    "project_id": "commv-users",
+    "storage_bucket": "commv-users.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330337503528:android:cc6714710bf13f1ac6281d",
+        "android_client_info": {
+          "package_name": "com.commv.commv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-DHkDXsntIlFdPfu4JbSHuEe2bJBFD-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.commv.commv.app-mergeDebugResources-43:/values-th/values-th.xml",
+            "outputFile": "com.commv.commv.app-mergeDebugResources-47:/values-th/values-th.xml",
             "map": [
                 {
                     "source": "/Users/drmac/.gradle/caches/8.12/transforms/417814f81b6db0cf12121d53d18aeea7/transformed/core-1.13.1/res/values-th/values-th.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.commv.commv.app-mergeDebugResources-43:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.commv.commv.app-mergeDebugResources-47:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/Users/drmac/.gradle/caches/8.12/transforms/d18970ec624a81d8a5939637273826a6/transformed/appcompat-1.1.0/res/values-night-v8/values-night-v8.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/drmac/Documents/HimanshuWorkSpace/commv/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/drmac/Documents/HimanshuWorkSpace/KdGitHub/commv/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

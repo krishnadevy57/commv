@@ -123,13 +123,13 @@ class AuthController extends GetxController {
     otpError.value = null;
 
     // Replace with your actual FCM/device token retrieval logic
-    const deviceToken = 'your_device_token';
+    var deviceToken =  StorageService.instance.deviceToken;
 
     try {
       final response = await _userService.loginVerifyOtp(
           otp: otp,
           userphoneNo: phone,
-          deviceToken: deviceToken);
+          deviceToken: deviceToken ?? "");
 
       if (response.statusCode == 200) {
         final data = jsonDecode(response.body);

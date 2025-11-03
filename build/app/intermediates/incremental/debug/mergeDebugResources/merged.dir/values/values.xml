@@ -416,10 +416,17 @@
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="copy">Copy</string>
     <string name="expand_button_title">Advanced</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="gcm_defaultSenderId" translatable="false">330337503528</string>
+    <string name="google_api_key" translatable="false">AIzaSyC-DHkDXsntIlFdPfu4JbSHuEe2bJBFD-k</string>
+    <string name="google_app_id" translatable="false">1:330337503528:android:cc6714710bf13f1ac6281d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC-DHkDXsntIlFdPfu4JbSHuEe2bJBFD-k</string>
+    <string name="google_storage_bucket" translatable="false">commv-users.firebasestorage.app</string>
     <string name="not_set">Not set</string>
     <string name="preference_copied">
         \"<ns1:g example="Version 1.1" id="summary">%1$s</ns1:g>\" copied to clipboard.
     </string>
+    <string name="project_id" translatable="false">commv-users</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list"><ns1:g id="current_items">%1$s</ns1:g>, <ns1:g id="added_items">%2$s</ns1:g></string>
